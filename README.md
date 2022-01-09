@@ -14,5 +14,30 @@ Isomap is a nonlinear dimensionality reduction method used to compute the low-di
 
 Numpy, SciPy, Scikit-learn are used throughout. The neural network is implemented using PyTorch. 
 
+The following results, visualized using Paraview, demonstrate the capabilities of the models in predicting the pressure coefficient profiles over the Onera M6 and CRM wings:
+
+Onera M6 POD+I versus CFD Solution at Mach = 0.826, AoA = 7.73 deg
+
+<img src="img/PODIOnera.png"  width="800">
+
+Onera M6 Isomap+I versus CFD Solution at Mach = 0.826, AoA = 7.73 deg
+
+<img src="img/IsomapOnera.png"  width="800">
+
+Onera M6 POD+NN versus CFD Solution at Mach = 0.826, AoA = 7.73 deg
+
+<img src="img/PODNNOnera.png"  width="800">
+
+CRM POD+I versus CFD Solution at Mach = 0.815, AoA = 4.13 deg
+
+<img src="img/PODI.png"  width="800">
+
+CRM Isomap+I versus CFD Solution at Mach = 0.815, AoA = 4.13 deg
+
+<img src="img/Isomap.png"  width="800">
+
+CRM POD+NN versus CFD Solution at Mach = 0.815, AoA = 4.13 deg
+
+<img src="img/PODNN.png"  width="800">
 
 
